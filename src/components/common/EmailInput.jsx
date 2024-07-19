@@ -28,6 +28,7 @@ const EmailInput = ({ name, label }) => {
       await trigger(name);
     }
   };
+  
   return (
     <div>
       <label>{label}</label>
