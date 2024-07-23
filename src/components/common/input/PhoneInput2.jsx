@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useFormContext } from 'react-hook-form';
-import { ErrorMessage, StyledInput } from '../styles/InputStyles';
+import { ErrorMessage, StyledInput } from '../../styles/InputStyles';
 
 const PhoneInput = ({ name, label }) => {
   const { setValue, register, formState: { errors } } = useFormContext();

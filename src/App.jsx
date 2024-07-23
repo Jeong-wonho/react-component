@@ -1,8 +1,9 @@
 import React from 'react';
-import DemoModal from './components/common/DemoModal';
+import DemoModal from './components/common/modal/DemoModal';
 import DemoForm from './components/common/DemoForm';
-import DemoDropdown from './components/common/DemoDropdown';
-import DemoTable from './components/common/DemoTable';
+import DemoDropdown from './components/common/dropdown/DemoDropdown';
+import DemoTable from './components/common/table/DemoTable';
+import DemoRadio from './components/common/radio/DemoRadio';
 
 const App = () => (
   <div className="App">
@@ -10,6 +11,7 @@ const App = () => (
     <DemoForm/>
     <DemoDropdown/>
     <DemoTable/>
+    <DemoRadio/>
   </div>
 );
 

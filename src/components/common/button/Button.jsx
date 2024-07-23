@@ -1,5 +1,5 @@
 import React from "react";
-import StyledButton from "../styles/ButtonStyles";
+import StyledButton from "../../styles/ButtonStyles";
 
 const Button = ({ label, variant, onClick, disabled, type }) => {
   return (

@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import { ErrorMessage, StyledInput } from "../styles/InputStyles";
+import { ErrorMessage, StyledInput } from "../../styles/InputStyles";
 import { useFormContext } from "react-hook-form";
 
 const Input = forwardRef(

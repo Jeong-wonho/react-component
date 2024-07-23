@@ -1,8 +1,8 @@
 import React from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
-import EmailInput from './EmailInput';
-import PhoneInput2 from './PhoneInput2';
-import Button from './Button';
+import EmailInput from './input/EmailInput';
+import PhoneInput2 from './input/PhoneInput2';
+import Button from './button/Button';
 
 const DemoForm = () => {
   const methods = useForm();

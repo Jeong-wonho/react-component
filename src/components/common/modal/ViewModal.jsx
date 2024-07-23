@@ -1,11 +1,11 @@
 import React from 'react';
 import Modal from './Modal';
-import Button from './Button';
+import Button from '../button/Button';
 
 const ViewModal = ({ isOpen, onClose, title, children }) => {
   const footer = (
     <div>
-      <Button label={"Close"}variant={"primary"} onClick={onClose}/>
+      <Button label={"확인"}variant={"primary"} onClick={onClose}/>
     </div>
   );
 

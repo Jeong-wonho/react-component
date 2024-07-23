@@ -1,0 +1,31 @@
+.radioGroupStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radioLabelStyle{
+    display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radioInputStyle {
+    margin-right: 10px;
+  accent-color: #4CAF50;
+}
+
+.appStyle {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.headerStyle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.selectedOptionStyle {
+    margin-top: 20px;
+    font-size: 18px;
+}

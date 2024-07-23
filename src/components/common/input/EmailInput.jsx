@@ -1,6 +1,6 @@
 import React from 'react';
 import { useFormContext } from 'react-hook-form';
-import { ErrorMessage, StyledInput } from '../styles/InputStyles';
+import { ErrorMessage, StyledInput } from '../../styles/InputStyles';
 
 const EmailInput = ({ name, label }) => {
   const {

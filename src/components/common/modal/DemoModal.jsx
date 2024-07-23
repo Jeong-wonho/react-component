@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ConfirmModal from './ConfirmModal';
 import ViewModal from './ViewModal';
-import Button from './Button';
+import Button from '../button/Button';
 
 
 const DemoModal = () => {

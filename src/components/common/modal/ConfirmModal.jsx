@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from './Modal';
-import Button from './Button';
+import Button from '../button/Button';
 
 const ConfirmModal = ({ isOpen, onClose, onConfirm, title, children }) => {
   const footer = (
